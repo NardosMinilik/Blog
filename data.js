@@ -1,28 +1,28 @@
 /**
- * DATA OBJECT
- * Centralized content for all blog posts.
- * Add a new block {} here to add a new post to the site.
+ * DATA OBJECT: Football Edition
+ * This file acts as your "Content Management System" (CMS).
+ * Simply change the text here to update your entire website.
  */
 const blogPosts = [
     {
-        title: "Getting Started with Web Development",
-        date: "January 15, 2025",
-        author: "Admin",
-        category: "Technology",
-        content: "Web development is an exciting journey that opens up endless possibilities. HTML provides structure, CSS adds style, and JavaScript brings interactivity to life."
+        title: "The Magic of the Champions League",
+        date: "April 20, 2026",
+        author: "Sports Desk",
+        category: "Tournament",
+        content: "Under the bright lights of Tuesday and Wednesday nights, legends are born. The Champions League remains the pinnacle of club football, where the world's best compete for the iconic trophy."
     },
     {
-        title: "The Power of Simple Design",
-        date: "January 12, 2025",
-        author: "Admin",
-        category: "Design",
-        content: "Sometimes less is more. A clean, simple design can be more effective than a cluttered, complex one. Focus on what matters most."
+        title: "Modern Tactics: The High Press",
+        date: "April 18, 2026",
+        author: "Coach Analysis",
+        category: "Tactics",
+        content: "Football has evolved. Today, defense starts at the front. We analyze how top teams use high-intensity pressing to win the ball back in the opponent's half and create scoring chances."
     },
     {
-        title: "Tips for Better Productivity",
-        date: "January 8, 2025",
-        author: "Admin",
-        category: "Lifestyle",
-        content: "Productivity isn't about doing more things—it's about doing the right things. Start your day with a clear plan and eliminate distractions."
+        title: "Top 5 Young Talents to Watch",
+        date: "April 15, 2026",
+        author: "Scout Report",
+        category: "Players",
+        content: "The next generation of superstars is already here. From explosive wingers to composed midfielders, these five players under 21 are set to dominate the sport for the next decade."
     }
 ];
