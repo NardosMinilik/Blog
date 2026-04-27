@@ -1,13 +1,14 @@
 /**
- * MAIN SCRIPT
- * This function loops through the data object and generates HTML cards.
+ * Wait for the page to load, then run the render function.
  */
 document.addEventListener('DOMContentLoaded', () => {
+    // Locate the container in the HTML
     const blogContainer = document.getElementById('blog-container');
 
-    // Loop through the data from data.js
+    // Generate the HTML for each post
     const renderPosts = () => {
-        blogContainer.innerHTML = blogPosts.map(post => `
+        // Map over the blogPosts array from data.js
+        const htmlContent = blogPosts.map(post => `
             <article class="blog-post">
                 <h2>${post.title}</h2>
                 <div class="post-meta">
@@ -20,8 +21,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <a href="#" class="read-more">Read More</a>
             </article>
-        `).join('');
+        `).join(''); // Convert the array into one long string
+
+        // Inject the content into the page
+        blogContainer.innerHTML = htmlContent;
     };
 
+    // Run the function
     renderPosts();
 });
